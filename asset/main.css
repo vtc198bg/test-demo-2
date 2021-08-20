@@ -1,0 +1,103 @@
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text__dec--none {
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#ff4e87,#ffc884,#fffdfc);
+    display: flex;
+}
+.signup {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 5rem 3.5rem;
+    border-radius: 10px;
+}
+.signup__heading {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+.signup__already {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2.5rem 0;
+}
+.signup__link{
+    color: #66bceb;
+    font-size: inherit;
+}
+.form__group{
+    padding-bottom: 1.5rem;
+    
+}
+.form__group--2{
+    display: flex;
+    justify-content: space-between;
+}
+.form__input {
+    padding: 1.3rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid #eee;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 550;
+    background-color: #eee;
+    transition: .25s linear;
+}
+.form__input:focus{
+    background-color: white;
+}
+.form__input::-webkit-input-placeholder{
+    color: rgb(192, 181, 181);
+    font-style: italic;
+    font-weight: 500;
+}
+.form__group--2>.form__input{
+    flex-basis: 49.5%;
+}
+.form__group--2>.form__input:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form__group--2>.form__input:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form__submit{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #66bceb;
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.5rem;
+}
+.form__tos {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(180, 163, 163);
+}
+.checkbox__tos {
+    margin-right: 1rem;
+}
